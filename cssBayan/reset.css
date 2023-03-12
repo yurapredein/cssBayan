@@ -72,6 +72,7 @@ body {
 a {
     text-decoration: none;
     font-family: Verdana, Arial, sans-serif;
+    transition: 1s linear;
 }
 
 a:hover {
