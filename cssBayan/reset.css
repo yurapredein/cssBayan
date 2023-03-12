@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+body {
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.services , .projects {
+    text-align: center;
+}
+
+.button{
+    border: 1px solid aliceblue;
+    padding: 5px 5px;
+    background-color: transparent;
+    font-size: 38px;
+
+}
+
+
+.button:hover{
+    border: 2px solid red;
+    padding: 15px 20px;
+    background-color: transparent;
+    font-size: 40px;
+
+}
+
+.header {
+    background-color: aliceblue;
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.proj {
+    width: 390px;
+    height: 200px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+.aligncenter {
+    text-align: center;
+}
+
+.img{
+    width: 160px;
+    height: 160px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+    transition: 1s linear;
+}
+
+a:hover {
+    color: red;
+}
+
+#main{
+    background-color: transparent;
+}
+
+#main p{
+    display: none;
+}
+
+#main:target p{
+    display: block;
+}
+ 
+#main:target + #click{
+    display: none;
+}
+
+#main:target ~ #back{
+    display: block;
+}
+
+#back{
+    display: none;
+}

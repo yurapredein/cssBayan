@@ -1,0 +1,31 @@
+.container{
+    max-width: 1800px;
+}
+@media only screen and (max-width: 2000px){
+    .header {
+        width: 100%;
+    }
+    
+    .services {
+        width: 100%;
+    }
+
+    .proj {
+        width: 32%;
+    }
+    }
+@media only screen and (max-width: 820px){
+
+
+    .proj {
+        width: 90%;
+    }
+    }
+
+@media only screen and (max-width: 320px){
+
+
+    .proj {
+        width: 90%;
+    }
+}
